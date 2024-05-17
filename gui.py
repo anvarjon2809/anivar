@@ -1,6 +1,6 @@
 import functions
 import PySimpleGUI as sg
-
+sg.theme("Black")
 label = sg.Text("Type in a to-do")
 input_box = sg.InputText(tooltip="Enter todo")
 add_button = sg.Button("Add")
